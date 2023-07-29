@@ -410,7 +410,7 @@ export default function Cardetails({ props }) {
                 purchase_units: [
                   {
                     amount: {
-                      value: "50.99",
+                      value: item.price?item.price:"1000",
                     },
                   },
                 ],
