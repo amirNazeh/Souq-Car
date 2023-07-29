@@ -16,7 +16,7 @@ function CarCart(props) {
    }
   
   useEffect(()=>{
-    saveAdd&&setaddId(saveAdd.map((f)=>f.id))
+    setaddId(saveAdd?saveAdd.map((f)=>f.id):[])
     localStorage.setItem("saveAdd", JSON.stringify(saveAdd));
     //console.log(saveAdd);
   },[saveAdd])

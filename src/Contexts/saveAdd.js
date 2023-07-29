@@ -7,7 +7,7 @@ const SaveAddContextProvider = ({children}) => {
     useEffect(()=>{
         var localSaveAdd = localStorage.getItem("saveAdd")
         console.log(localStorage);
-        setSaveAdd(JSON.parse(localSaveAdd))
+        setSaveAdd(localSaveAdd?JSON.parse(localSaveAdd):[])
         
     },[])
     
