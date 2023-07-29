@@ -47,8 +47,8 @@ export const auth = getAuth();
 //A reference to our firestore (database).
 export const db = getFirestore();
 
-export const signInWithGooglePopup = () => {
-  return signInWithPopup(auth, googleProvider);
+export const signInWithGooglePopup = async() => {
+  return await signInWithPopup(auth, googleProvider);
 };
 
 export const signInWithGoogleRedirect = () => {
