@@ -237,6 +237,7 @@ let strings = new LocalizedStrings({
     
     signout:"خروج",
     signin:"دخول",
+    news:"الأخبار"
 
   },
   en: {
@@ -478,7 +479,8 @@ let strings = new LocalizedStrings({
     mercedes:"Mercedes-Benz",
     fiat:"Fiat",
     signout:"Sign out",
-    signin:"Sign in"
+    signin:"Sign in",
+    news:"News"
   },
 });
 export default strings;
