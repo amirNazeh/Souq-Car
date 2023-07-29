@@ -1,0 +1,15 @@
+.explantionOfUse {
+  background-image: url("https://souq.car/imgs/cards/card-1.jpg");
+  height: 94%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  border-radius: 15px;
+  transition-duration: 15;
+  transition-delay: 0.2s;
+  transition-property: margin-left margin-top;
+  transition-timing-function: linear;
+}
+
