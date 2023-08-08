@@ -50,9 +50,9 @@ function BuyCarsPage(props) {
 
   return (
     <>
-      <div className="row px-3 theme1">
+      <div className="row m-0 px-3 theme1">
         <div
-          className="m-2"
+          className=""
           style={{
             borderRadius: "10px",
             color: "white",

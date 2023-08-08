@@ -42,7 +42,7 @@ function CarCart(props) {
    }
   return (
     <>
-      <div className=" mb-3 border-0 rounded cont mx-1">
+      <div className=" mb-3 border-0 rounded cont ">
         <div className="row g-0 scale">
           <div className="col-lg-2">
             <img
