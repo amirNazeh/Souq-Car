@@ -111,9 +111,9 @@ export default function VerticalSwiper() {
   return (
     <>
 
-        <Slider {...settings}>
+        <Slider {...settings} className="m-3">
           {filteredCars&&filteredCars.map((car) => (
-            <div className="slide px-4">
+            <div className="slide">
               {" "}
               <CarCart key={car.id} car={car} />
             </div>
