@@ -20,10 +20,13 @@
   .activeFilter{
     position: fixed;
     padding-top: 15px;
+    padding-bottom: 15px;
     height:100vh;
     background-color: var(--background-color);
     z-index: 8;
     display: block !important; 
+    overflow: auto;
+    
   } 
   .filter {
     display: flex;

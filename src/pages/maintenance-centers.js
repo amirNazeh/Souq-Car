@@ -38,10 +38,11 @@ const MaintenanceCenters = () => {
    },[])
   return (
     <>
-      <div className="row px-3 theme1">
-      <div
-          className="m-2"
+      <div className="row m-0 px-2 theme1">
+        <div
+          
           style={{
+            marginTop:"6px",
             borderRadius: "10px",
             color: "white",
             height: "90px",

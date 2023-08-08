@@ -43,11 +43,14 @@ input:checked  {
 background: rgb(0, 0, 255 , 0.4);
 }
 
+
 .input-pos{
     position: absolute;
    width: 15px;
    height: 15px;
    padding: 1px;
+   
+   
     /* clip-path: circle(50% at 50% 50%); */ 
 }
 

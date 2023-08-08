@@ -50,15 +50,17 @@ function BuyCarsPage(props) {
 
   return (
     <>
-      <div className="row m-0 px-3 theme1">
+      <div className="row m-0 px-2 theme1">
         <div
-          className=""
+          
           style={{
+            marginTop:"6px",
             borderRadius: "10px",
             color: "white",
             height: "90px",
             width: "100%",
             position: "relative",
+            
             background:
               '#888 url("https://souq.car/imgs/sub-header.jpg") no-repeat center/cover fixed',
             backgroundBlendMode: "multiply",

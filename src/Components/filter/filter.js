@@ -275,7 +275,7 @@ const carConditionList= [
   
   return (
     <>
-      <aside className="col-lg-3 col-9  display " id="filter">
+      <aside className="col-lg-3 col-9  display  " id="filter">
         <div className=" cancelFiler" >
           <h5>{strings.advancedSearch}</h5>
           <h5 onClick={()=>{cancelFilter()}}><i class="fa-regular fa-circle-xmark pointer"></i></h5>
