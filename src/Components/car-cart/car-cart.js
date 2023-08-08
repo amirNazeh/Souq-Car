@@ -107,21 +107,19 @@ function CarCart(props) {
                 >
                   {car.price}
                 </h6>
-                <div className="col mx-3">{car.condition?car.condition:""}</div>
+                
                 </>)
                 }
                 
 
-                <div className="d-flex justify-content-between ">
+                <div className="d-flex">
             <span className="mx-3 pointer" onClick={()=>{hanedlAddDelete(car)}}>
               
                 <i className={`fa-regular fa-heart p-1 ${addId.includes(car.id)?"text-danger":""}`} ></i>
               
                {addId.includes(car.id)?strings.removeAd:strings.saveAd}
             </span>
-            <span  >
-              <i class="fa-sharp fa-solid fa-share-nodes p-1" ></i>{strings.share}
-            </span>
+            
             </div>
               </div>
               

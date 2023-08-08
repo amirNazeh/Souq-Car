@@ -10,7 +10,7 @@ const FeaturedAds = () => {
     <>
       <Row>
         <Col xs={6} md={3}>
-          <div className="explantionOfUse ">
+          <div className="explantionOfUse d-lg-block d-none ">
             <h2 className="spanClass m-2 my-5 py-3">
               {strings.howToUseTheSouqCar}
             </h2>
