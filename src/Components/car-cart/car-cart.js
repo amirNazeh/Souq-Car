@@ -57,7 +57,7 @@ function CarCart(props) {
           <div className="col-lg-10 p-3 ">
             <div className="card-body ">
               <div className="row" style={{ justifyContent: "space-between" }}>
-                <div className="col-lg-2 col-4 ">
+                <div className="col-lg-2 col-4 " onClick={()=>{goToDetails(car)}}>
                   <img className="w-75 mb-1 " src={car.logoUrl} alt="" />
                 </div>
                 <p className="col-6" style={{ textAlign: "end" }}>
