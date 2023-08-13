@@ -31,9 +31,8 @@ const titleName=props.titleName;
             },
              600: {
               slidesPerView: 2,
-           
             },
-            900: {
+            700: {
               slidesPerView: 3,
              
             },
