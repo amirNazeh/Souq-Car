@@ -13,8 +13,8 @@ const CarSwiper = (props) => {
 const titleName=props.titleName;
   return (
     <>
-      <div className="swiperContainer my-3" >
-        <div  className="brandText my-2">  {titleName} </div>
+      <div className="swiperContainer  my-3 " >
+       
         <Swiper
           modules={[Navigation]}
           navigation
@@ -26,27 +26,31 @@ const titleName=props.titleName;
           grabCursor={true}
           breakpoints={{
             400: {
+              slidesPerView: 1,
+           
+            },
+             600: {
               slidesPerView: 2,
-              spaceBetween: 1,
+           
             },
             900: {
               slidesPerView: 3,
-              spaceBetween: 1,
+             
             },
 
             1000: {
               slidesPerView: 4,
-              spaceBetween: 1,
+            
             },
             1050: {
-              slidesPerView: 6,
-              spaceBetween: 1,
+              slidesPerView: 5,
+           
             },
           }}
         >
           {cars.map((car) => (
             <SwiperSlide>
-              <CarSwiperChild key={car.id} car={car}>
+              <CarSwiperChild key={car.id} car={car} >
             
               </CarSwiperChild>
             </SwiperSlide>

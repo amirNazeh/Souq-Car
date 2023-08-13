@@ -17,14 +17,21 @@ const NewsDetails = () => {
   }
 
   return (
-    <div>
-      <img src={post.imgUrl} alt="news" />
+    <div >
+         <br></br>
+       <h2 style={{textAlign:"center" , paddingInline:"10px"}}>{post.title}</h2>
+    
       <br></br>
+   <div  style={{textAlign:"center"}}>
+       <img src={post.imgUrl} className="rounded-4 col-lg-7 col-sm-12 col-12 px-3" alt="news" />
+   </div>
       <br></br>
+   
+     
       <br></br>
-      <h2>{post.title}</h2>
-      <br></br>
-      <p>{post.body}</p>
+     <div className=" col-lg-7 col-sm-12 col-12 px-3  fs-5 font-weight-normal" style={{marginRight:"auto",marginLeft:"auto"}}>
+       <p >{post.body}</p>
+     </div>
     </div>
   );
 };

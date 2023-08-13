@@ -155,6 +155,7 @@ const MainPage = () => {
         <CarSearch />
         <CarSwiper car={carBrand} titleName={strings.searchByCarBrands} />
         <ExploreSection />
+  
         <FeaturedAds />
         <CarSwiper car={carTypes} titleName={strings.searchByCarBodyTypes} />
         <CarCard />

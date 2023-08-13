@@ -22,8 +22,7 @@ function BuyCarsPage(props) {
   //  }, []);
   useEffect(() => {
     setpage("sale");
-    // setFilteredCars(cars)
-    // setCarsMap(cars)
+    
   }, []);
 
   const order = (value) => {
@@ -50,23 +49,25 @@ function BuyCarsPage(props) {
 
   return (
     <>
-      <div className="row m-0 px-2 theme1">
+      <div className="row px-3 theme1">
         <div
-          
+          className="m-0"
           style={{
-            marginTop:"6px",
             borderRadius: "10px",
             color: "white",
             height: "90px",
             width: "100%",
             position: "relative",
-            
             background:
-              '#888 url("https://souq.car/imgs/sub-header.jpg") no-repeat center/cover fixed',
+              '#888 url("https://souq.car/imgs/sub-header.jpg") no-repeat center/cover ',
             backgroundBlendMode: "multiply",
           }}
         >
-          <h1 style={{ marginTop: "1%" }}> {strings.buyCars}</h1>
+          <h1 style={{   position:"absolute ",
+        top:"45%",
+        transform:"translateY(-50%)"
+        
+        }}> {strings.buyCars}</h1>
         </div>
 
         {filteredCars ? (

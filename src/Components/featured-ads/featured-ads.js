@@ -9,7 +9,7 @@ const FeaturedAds = () => {
   return (
     <>
       <Row>
-        <Col xs={6} md={3}>
+        <Col lg={3}>
           <div className="explantionOfUse d-lg-block d-none ">
             <h2 className="spanClass m-2 my-5 py-3">
               {strings.howToUseTheSouqCar}
@@ -20,7 +20,7 @@ const FeaturedAds = () => {
             </div>
           </div>
         </Col>
-        <Col xs={12} md={9}>
+        <Col  lg={9}>
           <div className="spanClass m-2">{strings.featuredAds} </div>
           <VerticalSwiper />{" "}
         </Col>

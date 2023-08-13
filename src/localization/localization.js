@@ -3,7 +3,7 @@ import LocalizedStrings from "react-localization";
 let strings = new LocalizedStrings({
   ar: {
     // start home page
-    home:" الرئسية",
+    home:" الرئيسية",
     buyCarsPage:"شراء",
     carRentalPage:"تاجير", 
     maintenanceCentersPage:"الصيانه ",
@@ -59,6 +59,7 @@ let strings = new LocalizedStrings({
     howToUseTheSouqCar:"كيف تستخدم سوق . كار؟ ",
     howToUse:"شرح الاستخدام",
     featuredAds:"الاعلانات المميزة",
+    EGP:"ج.م",
      // end home page
     //start user edit
    
@@ -216,7 +217,7 @@ let strings = new LocalizedStrings({
       "من الأحدث للأقدم",
       "من الأقدم للأحدث",
       "السعر الأعلى أولا",
-      "لسعر الأقل أولا",
+      "السعر الأقل أولا",
     ],
      //car cart
      saveAd :'حفظ الاعلان',
@@ -299,7 +300,7 @@ let strings = new LocalizedStrings({
     howToUseTheSouqCar: "How to use the Souq.Car? ",
     howToUse: "How to use",
     featuredAds: "Featured ads",
-
+    EGP:"EGP",
     // end home page
     //start user edit
     myAccount: "My Account",

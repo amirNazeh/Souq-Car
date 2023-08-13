@@ -28,7 +28,7 @@ function ViewNav(props) {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 " style={{textAlign:"end"}}>
+              <div className="col-lg-6 " style={{textAlign:"end",borderRadius:"5px"}}>
                 <span>{strings.order}</span>
                 <select
                 className='m-1 p-1'
@@ -42,9 +42,7 @@ function ViewNav(props) {
               ))}
                 </select>
 
-                <span className="display m-1">{strings.show}</span>
-                <i className="fa-solid fa-list display m-1 p-1 text-primary"></i>
-                <i className="fa-solid fa-table-cells display text-primary"></i>
+               
               </div>
             </div>
           </div> 

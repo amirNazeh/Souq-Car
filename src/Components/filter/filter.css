@@ -4,15 +4,12 @@
 
 .icon{
     background-color:var(--icon-color); 
-   
     /* rgb(177, 177, 177); */
     padding: 10px;
     border-radius: 6px;
 }
 
-.iconfont{
-    font-size: 19px;
-}
+.iconfont{font-size: 19px;}
 
 input {display: none;}
 input:checked  {
@@ -43,14 +40,11 @@ input:checked  {
 background: rgb(0, 0, 255 , 0.4);
 }
 
-
 .input-pos{
-    position: absolute;
+
    width: 15px;
    height: 15px;
    padding: 1px;
-   
-   
     /* clip-path: circle(50% at 50% 50%); */ 
 }
 

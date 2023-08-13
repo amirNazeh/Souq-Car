@@ -9,7 +9,7 @@ const RescueWinch = () => {
 <>
 <div className="row px-3 theme1 ">
         <div
-          className="m-2"
+          className="m-0"
           style={{
             borderRadius: "10px",
             color: "white",

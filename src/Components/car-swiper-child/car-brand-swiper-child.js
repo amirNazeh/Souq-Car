@@ -5,10 +5,10 @@ const CarSwiperChild = (props) => {
   const { name, imgUrl } = props.car;
   return (
     <>
-      <div className="brandCard">
-        <div className="textBrandCard">
-          <img src={imgUrl} alt="" width={60} height={40} />
-          <p>{name}</p>
+      <div className="brandCard mt-4 me-auto ms-auto">
+        <div className="textBrandCard ">
+          <img src={imgUrl} alt="" width={60} height={40} className="ms-5"/>
+          <p style={{paddingLeft:"40%"}}>{name}</p>
         </div>
       </div>
     </>

@@ -18,7 +18,7 @@ function CarCart(props) {
   useEffect(()=>{
     setaddId(saveAdd?saveAdd.map((f)=>f.id):[])
     localStorage.setItem("saveAdd", JSON.stringify(saveAdd));
-    //console.log(saveAdd);
+    
   },[saveAdd])
 
   function addAdd (obj) {
@@ -50,14 +50,14 @@ function CarCart(props) {
               src={car.imgUrl}
               className="img-fluid rounded imge"
               alt="..."
-              style={{ objectFit: "cover", height: "270px" }}
+              style={{ objectFit: "cover", height: "100%" }}
             />
           </div>
 
           <div className="col-lg-10 p-3 ">
             <div className="card-body ">
               <div className="row" style={{ justifyContent: "space-between" }}>
-                <div className="col-2 ">
+                <div className="col-lg-2 col-4 ">
                   <img className="w-75 mb-1 " src={car.logoUrl} alt="" />
                 </div>
                 <p className="col-6" style={{ textAlign: "end" }}>
@@ -65,9 +65,9 @@ function CarCart(props) {
                 </p>
               </div>
               <h5 className="card-title pointer" onClick={()=>{goToDetails(car)}}>{car.name}</h5>
-              <div className="row p-3" style={{ textAlign: "start" }}>
+              <div className="row p-3 " style={{ textAlign: "start" }}>
                 {car.kilometersDone && (
-                  <div className="col">
+                  <div className="col-lg-4 ">
                     <i className="fa-solid fa-gauge-high text-primary"></i>
                     <span style={{ margin: "8px" }}>
                       {strings.kilometerage}
@@ -76,8 +76,11 @@ function CarCart(props) {
                     <h6>{car.kilometersDone}{strings.km}</h6>
                   </div>
                 )}
+                <br></br>
+                <br></br>
+                <br></br>
                 {car.manufactureDate && (
-                  <div className="col">
+                  <div className="col-lg-4 ">
                     <i className="fa-regular fa-calendar-days text-primary"></i>
                     <span style={{ margin: "8px" }}>
                       {strings.productionYear}
@@ -85,8 +88,12 @@ function CarCart(props) {
                     <h6>{car.manufactureDate}</h6>
                   </div>
                 )}
+                <br></br>
+                <br></br>
+                <br></br>
+                
                 {car.saleLocation && (
-                  <div className="col">
+                  <div className=" col-lg-4  ">
                     <i className="fa-sharp fa-solid fa-location-dot text-primary"></i>
                     <span style={{ margin: "8px" }}>{strings.location}</span>
 
@@ -97,22 +104,32 @@ function CarCart(props) {
               </div>
               <div className="d-flex justify-content-between ">
                 {car.price&&(<>
-                <h6
-                  className=" px-5 py-1"
-                  style={{
-                    textAlign: "center",
-                    color: "blue",
-                    background: "rgb(206, 224, 248)",
-                  }}
-                >
-                  {car.price}
-                </h6>
+         <div    
+                   style={{
+                   paddingInline:"5%",
+                     color: "blue",
+                     background: "rgb(206, 224, 248)",
+                     borderRadius:"5px",
+                     height:"35px",
+                     display:"flex",
+                     flexDirection:"column",
+                     justifyContent:"center",
+                     textAlign:"center"
+
+                     
+                   }}>
+                 <h6>
+                   {car.price}<span style={{marginInline:"3px"
+                 }}>{strings.EGP}</span>
+                   
+                 </h6>
+         </div>
                 
                 </>)
                 }
-                
+                 </div>
 
-                <div className="d-flex">
+                <div className="d-flex justify-content-end ">
             <span className="mx-3 pointer" onClick={()=>{hanedlAddDelete(car)}}>
               
                 <i className={`fa-regular fa-heart p-1 ${addId.includes(car.id)?"text-danger":""}`} ></i>
@@ -121,7 +138,7 @@ function CarCart(props) {
             </span>
             
             </div>
-              </div>
+             
               
             </div>
           </div>

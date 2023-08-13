@@ -12,7 +12,7 @@ const SliderItems = (props) => {
 
   return (
     <>
-      <div className="my-2" style={{position:"relative" , zIndex:"5"}}>
+      <div className="my-2 " style={{position:"relative" , zIndex:"5"}}>
         <Swiper
                       
       

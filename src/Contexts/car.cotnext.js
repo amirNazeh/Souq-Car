@@ -387,7 +387,7 @@ export const CarProvider = ({ children }) => {
     },
     {
       id: 2,
-      name: " بيع جنوط     ",
+      name: " بيع جنوط   ",
       imgUrl:
         "https://souq.car/storage/posts/c511e93357ba43468fda4277248c4582_20230505104045_main_image.jpg",
       saleLocation: "لقاهرة مدينة نصر، مصر",

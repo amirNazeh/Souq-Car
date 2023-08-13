@@ -49,7 +49,7 @@ export default function Cardetails({ props }) {
     <>
       <div className="theme1 p-4">
         <div style={{ display: "flex" }}>
-          <div className="col-lg-7 col-sm-12 rounded-4 ">
+          <div className="col-lg-7 col-12 rounded-4 ">
             <img
               style={{ height: "650px" }}
               className="d-block w-100 rounded-4 img-fluid "
@@ -158,43 +158,60 @@ export default function Cardetails({ props }) {
         <div className="d-flex justify-content-between mb-3">
           <h3>{item.name}</h3>
         </div>
-        <div className="d-flex justify-content-between">
+        <div className="d-flex justify-content-between flex-wrap ">
           <div>
             <h5>
               <i class="fa-solid fa-clock"></i> قبل 7 ساعات | رقم الإعلان :
               2306001960
             </h5>
           </div>
-          <div>
-            <div
-              style={{
-                width: "100px",
-                height: "50px",
-                backgroundColor: "orange",
-                textAlign: "center",
-                paddingTop: "5px",
-                borderRadius: "5px 5px 0px 0px",
-                color: "white",
-                fontWeight: "800",
-                fontSize: "25px",
-              }}
-            >
-              السعر
-            </div>
-            <div
-              style={{
-                width: "250px",
-                height: "62px",
-                backgroundColor: "rgb(185, 220, 255)",
-                textAlign: "center",
-                color: "blue",
-                fontSize: "35px",
-                fontWeight: "600",
-              }}
-            >
-            {item.price} <span style={{ fontSize: "20px" }}>ج.م</span>
-            </div>
-          </div>
+          {item.price && (
+          <div
+ 
+          style={{
+            marginRight:"auto",
+            marginLeft:"auto",
+
+          }}>
+          
+      
+   
+              <div
+                style={{
+                  width: "40%",
+                  height: "50px",
+                  backgroundColor: "orange",
+                  textAlign: "center",
+                  paddingTop: "5px",
+                  borderRadius: "5px 5px 0px 0px",
+                  color: "white",
+                  fontWeight: "800",
+                  fontSize: "25px",
+                }}
+              >
+                السعر
+              </div>
+              <div
+            
+                style={{
+                  width: "325px",
+                  height: "62px",
+                  backgroundColor: "rgb(185, 220, 255)",
+                  textAlign: "center",
+                  color: "blue",
+                  fontSize: "35px",
+                  fontWeight: "600",
+                  borderRadius:"0 0 7px 7px"
+               
+                }}
+              >
+              {item.price} <span style={{ fontSize: "20px" }}>ج.م</span>
+              </div>
+     </div>
+     
+          
+       
+          )}
         </div>
        
         {!item.service && (
@@ -205,7 +222,7 @@ export default function Cardetails({ props }) {
               id="theme2"
             >
               <div className="d-flex " style={{ flexWrap: "wrap" }}>
-                <ul
+                <div
                   className="col-lg-4 col-sm-6 col-12"
                   style={{ listStyleType: "none" }}
                 >
@@ -279,9 +296,8 @@ export default function Cardetails({ props }) {
                       <h5>{item.engine}</h5> <br />
                     </div>
                   )}
-                </ul>
-
-                <ul
+                </div>
+                <div
                   className=" col-lg-4 col-sm-6 col-12"
                   style={{ listStyleType: "none" }}
                 >
@@ -341,8 +357,8 @@ export default function Cardetails({ props }) {
                       <br />
                     </div>
                   )}
-                </ul>
-                <ul
+                </div>
+                <div
                   className="col-lg-4 col-sm-6 col-12 "
                   style={{ listStyleType: "none" }}
                 >
@@ -387,16 +403,20 @@ export default function Cardetails({ props }) {
                       <br />
                     </div>
                   )}
-                </ul>
+                </div>
               </div>
             </Card>
           </div>
         )}
         {item.description && (
-          <div className="col-lg-8 col-m-12 mt-3 px-3  " id="theme2">
-            <h3 style={{ fontWeight: "900" }}>{item.description}</h3>
-          </div>
+         
+             <Card className="col-lg-8 col-m-12 mt-3 px-3 shadow" id="theme2" >
+      <Card.Body>      <h3 style={{ fontWeight: "900" }}>{item.description}</h3></Card.Body>
+    </Card>
+      
+        
         )}
+        <br></br>
         <PayPalScriptProvider
           options={{
             clientId:

@@ -133,20 +133,17 @@ export default function NavigationBar(props) {
                 {strings.spareParts}
               </div>
             </NavLink>
-            <NavLink href="#link" style={{ textDecoration: "none" }}>
-              <div>
-                <Link style={{ textDecoration: "none" }}>
-                  {/* If there is a signed in user then render "SignOut", if not then render "SignIn". */}
-                  
-                    <Link
-                      id="link"
-                      className="text-decoration-none fw-bolder mx-2"
-                      to="/news"
-                    >
-                      {strings.news}
-                    </Link>
-                  
-                </Link>
+            <NavLink
+              href="#link"
+              as={Link}
+              to="/news"
+              id="link"
+              aria-current="page"
+              className={({ isActive }) => (isActive ? cas : los)}
+            >
+              {" "}
+              <div className="text-decoration-none fw-bolder  mx-2 ">
+                {strings.news}
               </div>
             </NavLink>
             <NavLink href="#link" style={{ textDecoration: "none" }}>

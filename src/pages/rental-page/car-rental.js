@@ -40,23 +40,24 @@ const CarRental = (props) => {
   };
   return (
     <>
-     <div className="row m-0 px-2 theme1">
-        <div
-          
+      <div className="row px-3 theme1 ">
+      <div
+          className="m-0"
           style={{
-            marginTop:"6px",
             borderRadius: "10px",
             color: "white",
             height: "90px",
             width: "100%",
             position: "relative",
-            background: '#888 url("https://souq.car/imgs/sub-header.jpg") no-repeat center/cover fixed',
+            background: '#888 url("https://souq.car/imgs/sub-header.jpg") no-repeat center/cover',
             backgroundBlendMode:"multiply",
         
             
           }}
         >
-          <h1 style={{marginTop:"1%"}}> {strings.carRental}</h1>
+          <h1 style={{ position:"absolute ",
+        top:"45%",
+        transform:"translateY(-50%)"}}> {strings.carRental}</h1>
         </div>
         <SliderItems cars={filteredCars} />
         <Filter 

@@ -21,10 +21,7 @@ function Filter(props) {
   
  
   const yearList = [];
-   const cancelFilter=()=>{
-     var element = document.getElementById("filter");
-   element.classList.remove("activeFilter");
-   }
+   
   //console.log(carBody);
 
   for (let year = 2024; year >= 1968; year--) {
@@ -238,7 +235,10 @@ const carConditionList= [
   ]; 
  const { carFilters ,setCarFilters  } = useContext(CarContext);
  
-
+ const cancelFilter=()=>{
+  var element = document.getElementById("filter");
+element.classList.remove("activeFilter");
+}
   function handleCarFiltration(selectedFilter, filterType) {
     var element = document.getElementById(selectedFilter.name_en);
     element&&element.classList.toggle("checkbox-container-active");
@@ -275,7 +275,7 @@ const carConditionList= [
   
   return (
     <>
-      <aside className="col-lg-3 col-9  display  " id="filter">
+      <aside className="col-lg-3 col-9  display overflow-auto overflow-x-hidden" id="filter">
         <div className=" cancelFiler" >
           <h5>{strings.advancedSearch}</h5>
           <h5 onClick={()=>{cancelFilter()}}><i class="fa-regular fa-circle-xmark pointer"></i></h5>
@@ -352,7 +352,7 @@ const carConditionList= [
                       <div className="catItem bodyType">
                         <div className=" text-center w-100   pt-2 pb-2">
                           <div className="   w-100">
-                            <img className="w-75" src={item.img} alt="" />
+                            <img className="w-75 " src={item.img} alt="" />
                           </div>
                           <div>{localLang === "ar" ? item.name_ar : item.name_en}</div>
                         </div>
@@ -708,12 +708,10 @@ const carConditionList= [
             </div>
           )}
             </div>}
-          <div className="card text-bg-primary p-2 mt-3" style={{ textAlign: "center" }}>
+          <div className="card text-bg-primary p-2 mt-3 pointer" style={{ textAlign: "center" }} onClick={()=>{cancelFilter()}}>
             {strings.search}
           </div>
-          <div className="rounded p-2 mt-2 theme" style={{ textAlign: "center" }}>
-            {strings.clear}
-          </div>
+         
         </div>
       </aside>
     </>

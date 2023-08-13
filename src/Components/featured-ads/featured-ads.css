@@ -1,5 +1,6 @@
 .explantionOfUse {
-  background-image: url("https://souq.car/imgs/cards/card-1.jpg");
+  background: #888 url("https://souq.car/imgs/cards/card-1.jpg") no-repeat center/cover;
+  background-blend-mode: multiply;
   height: 94%;
   width: 100%;
   background-size: cover;

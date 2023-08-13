@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Row from "react-bootstrap/Row";
+
 import Col from "react-bootstrap/Col";
 import strings from "../../localization/localization";
 import { Link } from "react-router-dom";
+
 const News = () => {
   const [posts, setPosts] = useState([]);
   const getData = () => {
@@ -22,39 +24,52 @@ const News = () => {
   }, []);
   return (
     <>
+     <div className="row px-4 theme1 ">
+       <div
+          className=" m-0"
+          style={{
+            borderRadius: "10px",
+            color: "white",
+            height: "200px",
+            width: "100%",
+            position: "relative",
+            background: '#888 url("https://souq.car/imgs/blog.jpg") no-repeat center/cover ',
+            backgroundBlendMode:"multiply",
+            display:"flex",
+            flexDirection:"column",
+            justifyContent:"center"
+        
+            
+          }}
+        >
+          <h1 style={{
+       textAlign:"center",
+        }}> {strings.carNews}</h1>
+        </div>
+        </div>
     <div className="mainDiv">
-    <div
-        className="m-2 px-3"
-        style={{
-          borderRadius: "10px",
-          color: "white",
-          height: "190px",
-          width: "100%",
-          textAlign:"center",
-          backgroundImage: 'url("https://souq.car/imgs/sub-header.jpg")',
-        }}
-      >
-        <h1> {strings.carNews}</h1>
-      </div>
-      <Row className="my-4" xs={1} md={3}>
+   
+   
+      <Row className="p-2" xs={1} md={3}>
         {posts.map((post) => (
           <div key={post.id}>
-          <Link  to={`/news/${post.id}`}><Col>
+          <Link className="text-decoration-none" to={`/news/${post.id}`}>
             <div className="articlesCard m-2">
             <div className="parentImg">
                 <img
                   src={post.imgUrl}
                   alt="news"
-                  className="w-100 articlesCard-img"
+                  className=" articlesCard-img rounded-3"
+                  style={{width:"100%",height:"240px"}}
                 />
               </div>
-              <a>
-                <h3 className="articlesCard-taxt">{post.title}</h3>
-              </a>
+             
+                <h2 className="articlesCard-taxt p-3 ">{post.title}</h2>
+          
 
             </div>
              
-            </Col> </Link>
+            </Link>
             
           </div>
         ))}

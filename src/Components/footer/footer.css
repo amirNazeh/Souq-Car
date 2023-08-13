@@ -1,11 +1,12 @@
+
 #foot {
   text-decoration: none;
   font-size: 20px;
   padding-top: 5px;
 }
 .footer-container.p-4 {
-  background: #888 url("https://souq.car/imgs/footer-bg.jpg") no-repeat center/cover fixed;
-  height: 500px;
+  background: #888 url("https://souq.car/imgs/footer-bg.jpg") no-repeat center/cover ;
+  height: auto;
   width: 100%;
   background-blend-mode: multiply;
 }

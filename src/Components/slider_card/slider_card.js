@@ -71,9 +71,7 @@ const SliderCard = (props) => {
               
                {addId.includes(car.id)?strings.removeAd:strings.saveAd}
             </span>
-            <span  >
-              <i class="fa-sharp fa-solid fa-share-nodes p-1" ></i>{strings.share}
-            </span>
+         
             </div>
           </Card.Text>
         </Card.Body>

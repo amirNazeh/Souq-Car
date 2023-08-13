@@ -13,23 +13,23 @@ const ExploreSection = () => {
         </Row>
       </div>
       <div>
-        <Row className="my-4" xs={3} md={6}>
+        <Row className="my-4" xs={2} md={3} lg={6}>
           <Col>
-            <div className="expioreCard m-2">
+            <div className="expioreCard m-1">
               <Link to="/SalePage">
                 <div className="exploreText ">
                   <img
                     src="https://souq.car/storage/post_types/1.jpg"
-                    className="w-50"
+                    className="w-25"
                     alt="cardImge"
                   />
-                  <p className="mt-2"> {strings.buyCars}</p>
+                  <p className="mt-3 fs-5"> {strings.buyCars}</p>
                 </div>
               </Link>
             </div>
           </Col>
           <Col>
-            <div className="expioreCard m-2">
+            <div className="expioreCard m-1">
               <Link to="/CarRental">
                 <div className="exploreText ">
                   <img
@@ -37,13 +37,13 @@ const ExploreSection = () => {
                     className="w-50"
                     alt="cardImge"
                   />
-                  <p className="mt-4"> {strings.carRental} </p>
+                  <p className="mt-3 fs-5"> {strings.carRental} </p>
                 </div>
               </Link>
             </div>
           </Col>
           <Col>
-            <div className="expioreCard m-2">
+            <div className="expioreCard m-1">
               <Link to="/MaintenanceCenters">
                 <div className="exploreText ">
                   <img
@@ -51,13 +51,13 @@ const ExploreSection = () => {
                     className="w-50"
                     alt="cardImge"
                   />
-                  <p className="mt-4"> {strings.maintenanceCenters} </p>
+                  <p className="mt-3 fs-5"> {strings.maintenanceCenters} </p>
                 </div>
               </Link>
             </div>
           </Col>
           <Col>
-            <div className="expioreCard m-2">
+            <div className="expioreCard m-1">
               <Link to="/SpareParts">
                 <div className="exploreText">
                   <img
@@ -65,13 +65,13 @@ const ExploreSection = () => {
                     className="w-50"
                     alt="cardImge"
                   />
-                  <p className="mt-4"> {strings.spareParts}</p>
+                  <p className="mt-3 fs-5"> {strings.spareParts}</p>
                 </div>
               </Link>
             </div>
           </Col>
           <Col>
-            <div className="expioreCard m-2">
+            <div className="expioreCard m-1">
            <Link to='/RescueWinch'>
            <div className="exploreText ">
                 <img
@@ -79,14 +79,14 @@ const ExploreSection = () => {
                   className="w-50"
                   alt="cardImge"
                 />
-                <p className="mt-4"> {strings.rescueWinch} </p>
+                <p className="mt-3 fs-5"> {strings.rescueWinch} </p>
               </div>
            </Link>
             </div>
           </Col>
           <Col>
           <Link to='/news'>
-          <div className="expioreCard m-2">
+          <div className="expioreCard m-1">
               <div className="exploreText ">
                 <img
                   src="https://souq.car/storage/post_types/6.jpg"
@@ -94,7 +94,7 @@ const ExploreSection = () => {
                   alt="cardImge"
                 />
 
-                <p className="mt-4"> {strings.carNews} </p>
+                <p className="mt-3 fs-5"> {strings.carNews} </p>
               </div>
             </div>
           </Link>
