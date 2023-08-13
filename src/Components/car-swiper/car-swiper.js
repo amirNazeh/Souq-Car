@@ -42,7 +42,7 @@ const titleName=props.titleName;
             
             },
             1050: {
-              slidesPerView: 5,
+              slidesPerView: 6,
            
             },
           }}
