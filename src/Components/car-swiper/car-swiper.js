@@ -41,14 +41,18 @@ const titleName=props.titleName;
               slidesPerView: 4,
             
             },
-            1050: {
+            1070: {
+              slidesPerView: 5,
+           
+            },
+            1250: {
               slidesPerView: 6,
            
             },
           }}
         >
           {cars.map((car) => (
-            <SwiperSlide>
+            <SwiperSlide >
               <CarSwiperChild key={car.id} car={car} >
             
               </CarSwiperChild>

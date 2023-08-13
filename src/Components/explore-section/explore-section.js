@@ -20,7 +20,7 @@ const ExploreSection = () => {
                 <div className="exploreText ">
                   <img
                     src="https://souq.car/storage/post_types/1.jpg"
-                    className="w-25"
+                    className="w-50"
                     alt="cardImge"
                   />
                   <p className="mt-3 fs-5"> {strings.buyCars}</p>
