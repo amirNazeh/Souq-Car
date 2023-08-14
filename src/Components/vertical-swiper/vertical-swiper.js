@@ -17,6 +17,10 @@ export default function VerticalSwiper() {
     verticalSwiping: true,
     swipeToSlide: true,
     arrows: true,
+    autoplay: true,
+    autoplaySpeed: 2500,
+     
+
     
 
   };
