@@ -9,14 +9,14 @@ const FeaturedAds = () => {
   return (
     <>
       <Row>
-        <Col lg={3}>
+      <Col lg={3} >
           <div className="explantionOfUse d-lg-block d-none ">
-            <h2 className="spanClass m-2 my-5 py-3">
+            <h1 className=" m-2 my-5 p-5 text-white font-bolder ">
               {strings.howToUseTheSouqCar}
-            </h2>
+            </h1>
 
-            <div className="m-5">
-              <Button variant="outline-warning">{strings.howToUse}</Button>
+            <div className="m-5 d-flex justify-content-center " style={{backgroundColor:"orange",borderRadius:"10px"}}>
+              <Button variant=" p-3 text-white " style={{fontSize:"30px",fontWeight:"900"}}>{strings.howToUse}</Button>
             </div>
           </div>
         </Col>

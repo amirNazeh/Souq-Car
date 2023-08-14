@@ -47,10 +47,9 @@ export default function NavigationBar(props) {
       <Navbar expand="lg" className=" navbarStyle px-2">
         <Navbar.Brand>
           {" "}
-          <a
+          <NavLink
             className="logo d-sm-block d-none "
-            href="https://souq.car/ar"
-            title="سوق كار"
+            to="/MainPage"
           >
             <img
               className=" w-100 animate_animated animate_fadeInDown duration_2s p-1 "
@@ -62,7 +61,7 @@ export default function NavigationBar(props) {
               style={{ height: "35px" }}
               alt="سوق كار"
             />
-          </a>
+          </NavLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav navbarStyle" />
         <Navbar.Collapse id="basic-navbar-nav navbarStyle">
