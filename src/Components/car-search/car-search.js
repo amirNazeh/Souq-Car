@@ -41,14 +41,14 @@ const CarSearch = () => {
               <Carousel.Item aria-hidden="false">
                 <img
                   className="d-block w-100 carouselImge"
-                  src="	https://souq.car/imgs/sliders/aftereid-2.png"
+                  src="https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694452333/covers%20and%20logos/gg_xubjnj.png"
                   alt="First slide"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className="d-block w-100 carouselImge"
-                  src="	https://souq.car/imgs/sliders/aftereid-3.png"
+                  src="https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694452296/covers%20and%20logos/c_jyxiu4.png"
                   alt="Second slide"
                 />
               </Carousel.Item>

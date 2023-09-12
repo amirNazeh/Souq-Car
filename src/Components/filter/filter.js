@@ -56,68 +56,52 @@ const carMakerList=[
   {id:18,name_ar:"جيلى",name_en:"GEELY"},
   {id:19,name_ar:"رنج روفر",name_en:"Range Rover"},
 ]
-  const carBodyList = [
-    {
-      id: 0,
-      img: "https://souq.car/storage/car_bodies/KhIZBFI6HuROkDGKh3Rw6pkZcvOoyg2o7pyCG5Bf.png",
-      name_ar: "هاتشباك",
-      name_en: "Hatchback",
-    },
-    {
-      id: 1,
-      img: "https://souq.car/storage/car_bodies/9Bf8qujWRIk3xmEx8fydhXu55GDaQCry12KohHUp.png",
-      name_ar: "كوبيه",
-      name_en: "Coupe",
-    },
-    {
-      id: 2,
-      img: "https://souq.car/storage/car_bodies/RsAZx4ojS1KfP4AaW9FqSVLdw6qCevmy95lkr91M.png",
-      name_ar: "سيدان",
-      name_en: "Sedan",
-    },
-    {
-      id: 3,
-      img: "https://souq.car/storage/car_bodies/PVXc0rflnzlUrtkJPeUqeVjeVaPvKDM1e8GrILVB.png",
-      name_ar: "سياره مكشوفه",
-      name_en: "Convertible",
-    },
-    {
-      id: 4,
-      img: "https://souq.car/storage/car_bodies/OjgIf5HiJzIpk1I3FIfNPjLDPz9HFVPsfSIYc5r8.png",
-      name_ar: "ستيشن واجن",
-      name_en: "Station wagon",
-    },
-    {
-      id: 5,
-      img: "https://souq.car/storage/car_bodies/YGC92Ool7dhvaBW0nFjujKaNpVxPFU25lGsDkdCo.png",
-      name_ar: "كروس اوفر",
-      name_en: "Crossover",
-    },
-    {
-      id: 6,
-      img: "https://souq.car/storage/car_bodies/VgtZsF6LR7qitVsLNZS8trE655Xo4qXDq2VYLf1T.png",
-      name_ar: "مينى فان",
-      name_en: "Mini Van",
-    },
-    {
-      id: 7,
-      img: "https://souq.car/storage/car_bodies/yMTZOivrvlK46ZrSN1uyaIVY9oV7uyFvoAnDJk6C.png",
-      name_ar: "بيك اب ",
-      name_en: "Pickup",
-    },
-    {
-      id: 8,
-      img: "https://souq.car/storage/car_bodies/wyZLd2q9IbZsMRzamaymkViz7aZrJat3rhxB8TYr.png",
-      name_ar: "ربع نقل",
-      name_en: "Quarter transfer",
-    },
-    {
-      id: 9,
-      img: "https://souq.car/storage/car_bodies/0drZ3AMQqda2XdvXmS5RCMY1SbIKErVycCpiArZF.png",
-      name_ar: "اتوبيس/باص",
-      name_en: "Bus",
-    },
-  ];
+const carBodyList = [
+  {
+    id: 0,
+    img: "https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694453076/covers%20and%20logos/hhhhhdd_w3hu2a.png",
+    name_ar: "هاتشباك",
+    name_en: "Hatchback",
+  },
+  {
+    id: 1,
+    img: "https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694453078/covers%20and%20logos/r_mooran.png",
+    name_ar: "كوبيه",
+    name_en: "Coupe",
+  },
+  {
+    id: 2,
+    img: "https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694467246/341-3410849_thumb-image-toyota-yaris-2017-sedan-hd-png_bdi10d.jpg",
+    name_ar: "سيدان",
+    name_en: "Sedan",
+  },
+  {
+    id: 3,
+    img: "https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694453077/covers%20and%20logos/hhhhhh_crxvri.png",
+    name_ar: "سياره مكشوفه",
+    name_en: "Convertible",
+  },
+  {
+    id: 4,
+    img: "https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694453076/covers%20and%20logos/gggjjj_j73ueb.png",
+    name_ar: "ستيشن واجن",
+    name_en: "Station wagon",
+  },
+
+  {
+    id: 7,
+    img: "https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694453072/covers%20and%20logos/ff_r2uose.png",
+    name_ar: "بيك اب ",
+    name_en: "Pickup",
+  },
+  {
+    id: 8,
+    img: "https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694453074/covers%20and%20logos/gggg_aybnzq.png",
+    name_ar: "ربع نقل",
+    name_en: "Quarter transfer",
+  },
+
+];
  
   const carFuelList= [
     {id:1,name_en:"Petrol",name_ar:"بنزين"}, 

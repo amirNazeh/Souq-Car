@@ -33,7 +33,7 @@ const News = () => {
             height: "200px",
             width: "100%",
             position: "relative",
-            background: '#888 url("https://souq.car/imgs/blog.jpg") no-repeat center/cover ',
+            background: '#888 url("https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694469151/1686716-1278608144_bsusse.jpg") no-repeat center/cover ',
             backgroundBlendMode:"multiply",
             display:"flex",
             flexDirection:"column",

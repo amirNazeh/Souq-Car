@@ -55,8 +55,8 @@ export default function NavigationBar(props) {
               className=" w-100 animate_animated animate_fadeInDown duration_2s p-1 "
               src={
                 theme === "light"
-                  ? "https://souq.car/imgs/logo.png"
-                  : "https://souq.car/imgs/logo-white.png"
+                  ? "https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694468780/Untitled_Project_kxiqpk.jpg"
+                  : "https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694468780/Untitled_Project_kxiqpk.jpg"
               }
               style={{ height: "35px" }}
               alt="سوق كار"

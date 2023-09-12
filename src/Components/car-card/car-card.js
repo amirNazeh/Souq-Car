@@ -57,7 +57,7 @@ const CarCard = () => {
            <div className="articlesCard mx-2">
            <div className="parentImg">
               <img
-                src="https://souq.car/storage/posts/1746a2a6be81483abfd69781b39c31d4_20230531095557_main_image.jpg"
+                src="https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694453309/articals%20cars/download_bnvbfa.jpg"
                 className="w-100 articlesCard-img "
                 style={{height:"200px"}}
                 alt="imgCard"
@@ -69,26 +69,13 @@ const CarCard = () => {
             </p>
            </div>
           </Col>
-          <br></br>
-  <br></br>
-  <br></br>
-  <br></br>
-  <br></br> <br></br>
-  <br></br>
-  <br></br>
-  <br></br>
-  <br></br> <br></br>
-  <br></br>
-  <br></br>
-  <br></br>
-  <br></br> <br></br>
-  <br></br>  
+     
  
           <Col >
           <div className="articlesCard mx-2">
           <div className="parentImg">
               <img
-                src="https://souq.car/storage/posts/2307074b8bd74d0984b10b6b21916ce6_20230521075001_main_image.jpg"
+                src="https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694453310/articals%20cars/ffff_e1d9s2.jpg"
                 className="w-100 articlesCard-img"
                 style={{height:"200px"}}
                 alt="imgCard"
@@ -100,26 +87,13 @@ const CarCard = () => {
             </p>
           </div>
           </Col>
-          <br></br>
-  <br></br>
-  <br></br>
-  <br></br>
-  <br></br> <br></br>
-  <br></br>
-  <br></br>
-  <br></br>
-  <br></br> <br></br>
-  <br></br>
-  <br></br>
-  <br></br>
-  <br></br> <br></br>
-  <br></br>  
+        
  
           <Col>
           <div  className="articlesCard mx-2">
           <div className="parentImg">
               <img
-                src="https://souq.car/storage/posts/82a9723c03a5470facea77421719939c_20230515073124_main_image.jpg"
+                src="https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694453312/articals%20cars/WhatsApp_Image_2023-09-11_at_20.15.14_wgfnti.jpg"
                 className="w-100 articlesCard-img "
                 style={{height:"200px"}}
                 alt="imgCard"
@@ -131,26 +105,14 @@ const CarCard = () => {
             </p>
           </div>
           </Col>
-          <br></br>
-  <br></br>
-  <br></br>
-  <br></br>
-  <br></br> <br></br>
-  <br></br>
-  <br></br>
-  <br></br>
-  <br></br> <br></br>
-  <br></br>
-  <br></br>
-  <br></br>
-  <br></br> <br></br>
-  <br></br>  
+   
+ 
   
           <Col>
           <div  className="articlesCard mx-2">
           <div className="parentImg">
               <img
-                src="	https://souq.car/storage/posts/5fe986a71d28415eb4447dee47685f2b_20230507055116_main_image.jpg"
+                src="https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694453317/articals%20cars/cc_l0zx8k.jpg"
                 className="w-100 articlesCard-img"
                 style={{height:"200px"}}
                 alt="imgCard"
@@ -164,19 +126,7 @@ const CarCard = () => {
             </p>
             </div>
           </Col>
-          <br></br>
-  <br></br>
-  <br></br>
-  <br></br>
-  <br></br> <br></br>
-  <br></br>
-  <br></br>
-  <br></br>
-  <br></br> <br></br>
-  <br></br>
-  <br></br>
-  <br></br>
-  <br></br> <br></br>
+   
 
   
         </Row>

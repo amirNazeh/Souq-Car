@@ -19,7 +19,7 @@ const ExploreSection = () => {
               <Link to="/SalePage">
                 <div className="exploreText ">
                   <img
-                    src="https://souq.car/storage/post_types/1.jpg"
+                    src="https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694452382/covers%20and%20logos/d_on3wqb.png"
                     className="w-50"
                     alt="cardImge"
                   />
@@ -33,7 +33,7 @@ const ExploreSection = () => {
               <Link to="/CarRental">
                 <div className="exploreText ">
                   <img
-                    src="https://souq.car/storage/post_types/4.jpg"
+                    src="https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694452384/covers%20and%20logos/download_hhktv5.png"
                     className="w-50"
                     alt="cardImge"
                   />
@@ -47,7 +47,7 @@ const ExploreSection = () => {
               <Link to="/MaintenanceCenters">
                 <div className="exploreText ">
                   <img
-                    src="https://souq.car/storage/post_types/2.jpg"
+                    src="https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694452386/covers%20and%20logos/xx_yqq9hg.png"
                     className="w-50"
                     alt="cardImge"
                   />
@@ -61,7 +61,7 @@ const ExploreSection = () => {
               <Link to="/SpareParts">
                 <div className="exploreText">
                   <img
-                    src="	https://souq.car/storage/post_types/3.jpg"
+                    src="	https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694452385/covers%20and%20logos/ss_bjv0lc.png"
                     className="w-50"
                     alt="cardImge"
                   />
@@ -75,7 +75,7 @@ const ExploreSection = () => {
            <Link to='/RescueWinch'>
            <div className="exploreText ">
                 <img
-                  src="	https://souq.car/storage/post_types/5.jpg"
+                  src="	https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694452383/covers%20and%20logos/ddd_vyozm6.png"
                   className="w-50"
                   alt="cardImge"
                 />
@@ -89,7 +89,7 @@ const ExploreSection = () => {
           <div className="expioreCard m-1">
               <div className="exploreText ">
                 <img
-                  src="https://souq.car/storage/post_types/6.jpg"
+                  src="https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694452384/covers%20and%20logos/ffff_jg1p7s.png"
                   className="w-50"
                   alt="cardImge"
                 />

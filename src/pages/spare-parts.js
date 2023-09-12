@@ -50,7 +50,8 @@ const SpareParts = () => {
             height: "90px",
             width: "100%",
             position: "relative",
-            background: '#888 url("https://souq.car/imgs/sub-header.jpg") no-repeat center/cover ',
+            background: '#888 url("https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694470944/fiery-drift-racing-car-motion_985323-9188_oukwdg.jpg") no-repeat center/cover ',
+
             backgroundBlendMode:"multiply",
         
             

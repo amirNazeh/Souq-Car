@@ -14,11 +14,13 @@
 
 }
 .imgBackGroundOne{
-    background-image: url("https://souq.car/imgs/cards/card-2.jpg");
+    background:#888 url("https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694468940/%D9%88%D9%83%D8%A7%D9%84%D8%A9-%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9-%D8%A7%D9%86%D8%AA%D8%B9%D8%A7%D8%B4-%D9%83%D8%A8%D9%8A%D8%B1-%D9%81%D9%8A-%D8%B3%D9%88%D9%82-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A8%D9%80-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-3_s9caao.jpg")no-repeat center/cover;
+ background-blend-mode: multiply;
     transition: all .5s;
 }
 .imgBackGroundTwo{
-  background-image: url("https://souq.car/imgs/cards/card-3.jpg");
+    background:#888 url("https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694462154/covers%20and%20logos/WhatsApp_Image_2023-09-11_at_22.54.36_mplovp.jpg")no-repeat center/cover;
+    background-blend-mode: multiply;
   transition: all .5s;
 
 }
