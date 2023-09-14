@@ -54,7 +54,7 @@ const CarCard = () => {
         </Row>
         <Row className="my-4" xs={1} md={4}>
           <Col >
-           <div className="articlesCard mx-2">
+           <div className="articlesCard m-2">
            <div className="parentImg">
               <img
                 src="https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694453309/articals%20cars/download_bnvbfa.jpg"
@@ -72,7 +72,7 @@ const CarCard = () => {
      
  
           <Col >
-          <div className="articlesCard mx-2">
+          <div className="articlesCard m-2">
           <div className="parentImg">
               <img
                 src="https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694453310/articals%20cars/ffff_e1d9s2.jpg"
@@ -90,7 +90,7 @@ const CarCard = () => {
         
  
           <Col>
-          <div  className="articlesCard mx-2">
+          <div  className="articlesCard m-2">
           <div className="parentImg">
               <img
                 src="https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694453312/articals%20cars/WhatsApp_Image_2023-09-11_at_20.15.14_wgfnti.jpg"
@@ -109,7 +109,7 @@ const CarCard = () => {
  
   
           <Col>
-          <div  className="articlesCard mx-2">
+          <div  className="articlesCard m-2">
           <div className="parentImg">
               <img
                 src="https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694453317/articals%20cars/cc_l0zx8k.jpg"
