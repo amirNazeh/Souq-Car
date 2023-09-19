@@ -27,7 +27,7 @@ const SignInForm = () => {
             <img
               className="light w-100 animate__animated animate__fadeInRight duration_2s img-fluid w-auto"
               src="https://res.cloudinary.com/dh0kvk4g5/image/upload/v1694468780/Untitled_Project_kxiqpk.jpg"
-              style={{}}
+              
               alt="سوق كار"
             ></img>
           </Link>
