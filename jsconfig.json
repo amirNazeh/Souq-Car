@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
-    "paths": {
-      "@/*": ["./src/*"]
-    }
-  }
+    "checkJs": true,
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "resolveJsonModule": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "build"]
 }
